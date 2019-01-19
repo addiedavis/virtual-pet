@@ -13,13 +13,14 @@
 	-- thirst (water it)
 	-- waste (clean up/letit it out)
 	-- boredom (play with pet)
-	-- sickness (give it meds)
+	-- health (give it meds if sick)
 
 ### ideas
 	- Over feeding (above a given hunger level) will make the animal sick (max out waste and increase sickness level)
 	- Over watering will make it pee (max out waste)
+	- Overdose on meds kills it
 	- dark humor about putting to sleep
 	- if pet is bored it will randomly increase it's boredome score by imaination/ball?
 	- visual rep of pet
 	- favorite food/toy?
-	
+
