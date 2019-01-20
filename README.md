@@ -11,16 +11,15 @@
 	- Include the following attributes and ways to eleviate it (at least 3)
 	-- hunger (feed it)
 	-- thirst (water it)
-	-- waste (clean up/letit it out)
+	-- waste (wash it)
 	-- boredom (play with pet)
 	-- health (give it meds if sick)
 
 ### ideas
 	- Over feeding (above a given hunger level) will make the animal sick (max out waste and increase sickness level)
 	- Over watering will make it pee (max out waste)
-	- Overdose on meds kills it
+	- Overdose on meds makes it sick 
 	- dark humor about putting to sleep
 	- if pet is bored it will randomly increase it's boredome score by imaination/ball?
 	- visual rep of pet
-	- favorite food/toy?
 
