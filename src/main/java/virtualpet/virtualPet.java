@@ -50,4 +50,33 @@ public class virtualPet {
 		this.health = health;
 	}
 
+	public int wasteDecreaseHealth() {
+		if (waste >= 5) {
+			health--;
+		}
+		return health;
+	}
+
+	public int feedPet() {
+		hunger++; 
+		return hunger;
+	}
+
+	public int giveMeds() {
+		health++;
+		return health;
+	}
+
+	public int giveWater() {
+		thirst++;
+		return thirst;
+	}
+
+	public int gettingBored() {
+		bored++;
+		return bored;
+	}
+	
+	
+
 }

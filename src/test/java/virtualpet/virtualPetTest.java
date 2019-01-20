@@ -34,14 +34,35 @@ public class virtualPetTest {
 	}
 
 	@Test
-	public void isPetMessyRemoveHealthBy2() {
+	public void isPetMessyRemoveHealthBy1() {
 		virtualPet underTest = new virtualPet("Rock", 10, 10, 10, 0, 10);
-		int expectedHealth = underTest.getHealthLevel();
-		assertThat(expectedHealth, is(8));
+		int expected = underTest.wasteDecreaseHealth();
+		assertThat(expected, is(9));
 	}
 
+	@Test
+	public void isPetHungryFeedPlus1() {
+		int expected = underTest.feedPet();
+		assertThat(expected, is(11));
+	}
 
-
+	@Test
+	public void isPetUnhealthyMedsPlus1() {
+		int expected = underTest.giveMeds();
+		assertThat(expected, is(11));
+	}
+	
+	@Test
+	public void isPetThirstyGiveWater() {
+		int expected = underTest.giveWater();
+		assertThat(expected, is(11));
+	}
+	
+	@Test
+	public void isPetGettingBored() {
+		int expected = underTest.gettingBored();
+		assertThat(expected, is(1));
+	}
 
 
 }
